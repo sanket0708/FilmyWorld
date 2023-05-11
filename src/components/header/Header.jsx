@@ -85,12 +85,8 @@ const Header = () => {
           <li className="menuItem" onClick={() => navigationHandler("tv")}>
             TV Shows
           </li>
-          <li className="menuItem">
-            <HiOutlineSearch onClick={openSearch} />
-          </li>
         </ul>
         <div className="mobileMenuItems">
-          <HiOutlineSearch onClick={openSearch} />
           {mobileMenu ? (
             <VscChromeClose
               onClick={() => {
